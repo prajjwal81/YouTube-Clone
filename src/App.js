@@ -9,11 +9,12 @@ import Feed from "./Components/Feed";
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/Youtube- Clone">
       <Box sx={{ backgroundColor: "#000" }}>
         <Navbar />
         <Routes>
           <Route path="/" exact element={<Feed />} />
+          <Route path="/Youtube-Clone" exact element={<Feed />} />
           <Route path="/Video/:id" exact element={<VideoDetail />} />
           <Route path="/Channel/:id" exact element={<ChannelDetail />} />
           <Route path="/search/:searchTerm" exact element={<SearchFeed />} />
