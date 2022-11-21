@@ -9,7 +9,7 @@ import Feed from "./Components/Feed";
 
 function App() {
   return (
-    <BrowserRouter basename="/Youtube- Clone">
+    <BrowserRouter basename="/Youtube-Clone">
       <Box sx={{ backgroundColor: "#000" }}>
         <Navbar />
         <Routes>
